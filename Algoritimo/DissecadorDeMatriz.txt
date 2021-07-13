@@ -1,0 +1,93 @@
+algoritmo "DissecandoMatriz"
+var
+mat: vetor[1..4,1..4] de inteiro
+op,l,c: inteiro
+
+procedimento MAT()
+inicio
+escreval("=================")
+para l <- 1 ate 4 faca
+     para c <- 1 ate 4 faca
+      escreva(mat[l,c]:4)
+     fimpara
+     escreval()
+fimpara
+fimprocedimento
+
+procedimento DIG()
+var
+t:inteiro
+inicio
+   Para l <- 1 ate 4 faca
+      EscrevaL(mat[l,l]:4)
+      Para t <- 1 ate l faca
+         Escreva("    ")
+      FimPara
+   FimPara
+fimprocedimento
+
+procedimento SUP()
+var
+t: inteiro
+inicio
+   Para l <- 1 ate 3 faca
+      Escreva("    ")
+      Para c <- l+1 ate 4 faca
+         Escreva(mat[l,c]:4)
+      FimPara
+      EscrevaL()
+      Para t <- 1 ate l faca
+         Escreva("    ")
+      FimPara
+   FimPara
+   EscrevaL()
+fimprocedimento
+
+procedimento INF
+var
+t: inteiro
+inicio
+para l <- 2 ate 4 faca
+     escreval()
+     para c <- 1 ate l-1 faca
+      escreva(mat[l,c])
+     fimPara
+FimPara
+EscrevaL()
+FimProcedimento
+
+
+inicio
+escreval("=================")
+escrevaL("DISSECANDO MATRIZ")
+escreval("=================")
+para l <- 1 ate 4 faca
+     para c <- 1 ate 4 faca
+      escreva("DIGITE O VALOR:")
+      leia(mat[l,c])
+     fimpara
+fimpara
+
+repita
+ escreval()
+ escreval("MENU DE OPÇÕES")
+ escreval("======================")
+ escreval("[1]MOSTRAR MATRIZ")
+ escreval("[2]DIAGONAL PRINCIPAL")
+ escreval("[3]TRIANGULO SUPERIOR")
+ escreval("[4]TRIANGULO INFERIOR")
+ escreval("[5]SAIR")
+ escreva("===========Opcão:")
+ leia(op)
+ escolha op
+        caso 1
+         MAt()
+        caso 2
+         DIG()
+        caso 3
+         SUP()
+        caso 4
+         INF()
+        fimescolha
+ate(op=5)
+fimalgoritmo

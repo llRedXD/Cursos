@@ -1,0 +1,18 @@
+algoritmo "Creuza03"
+var
+  Empr, EmprV, Parcela, Por100, VaEmpr: real
+   //EmprV: quantas parcelas terá
+   //Parcela: O valor da parcela
+   //Empr:Valor do emprestimo
+   //VaEmpr: Valor a ser pago
+inicio
+      escreva("Qual o valor do emprestimo? ")
+      leia(Empr)
+      escreva("Qual a porcentagem do emprestimo? ")
+      leia(Por100)
+      escreva("Quantas parcelas? ")
+      leia(EmprV)
+      VaEmpr <- ((Empr * Por100) / 100) + Empr
+      Parcela <- VaEmpr / EmprV
+      escreva("O valor total do emprestimo é R$", VaEmpr:5:2, " .O valor das pacelas é de R$", Parcela:5:2)
+fimalgoritmo

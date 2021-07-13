@@ -1,0 +1,29 @@
+algoritmo "MelhorAluno"
+var
+   tot, cont: inteiro
+   nota, maiorN: real
+   aluno, maiorA: caracter
+inicio
+      escreval("-----------------------")
+      escreval("E.E.Irene de Lima Paiva")
+      escreval("-----------------------")
+      escreva("Quantos alunos(as) tem na classe:")
+      leia(tot)
+      cont <- 1
+           enquanto (cont <= tot) faca
+                   escreval("------------------------")
+                   escreva("ALUNO(A)", cont,":")
+                   leia(aluno)
+                   escreva("NOTA", cont, ":")
+                   leia(nota)
+                       se(nota > maiorN)entao
+                       maiorN <- nota
+                       maiorA <- aluno
+                       fimse
+                   cont <- cont + 1
+             fimenquanto
+      escreval("----------------------------")
+      escreval("O melhor aluno foi ", maiorA)
+      escreval("Com a nota de:", maiorN)
+      escreval("----------------------------")
+fimalgoritmo

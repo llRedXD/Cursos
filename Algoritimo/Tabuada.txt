@@ -1,0 +1,13 @@
+algoritmo "Tabuada"
+var
+   n, r,cont: inteiro
+inicio
+      escreva("Qual o valor que deseja saber a tabuada:")
+      leia(n)
+      cont <- 1
+           repita
+                 r <- n * cont
+           escreval(n," x ", cont, " = ", r)
+           cont <- cont + 1
+           ate(cont> 10)
+fimalgoritmo

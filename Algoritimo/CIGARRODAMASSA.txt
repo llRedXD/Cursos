@@ -1,0 +1,27 @@
+algoritmo "semnome"
+var
+   c, min, a : inteiro
+   d: real
+   resp: caractere
+   //maço 20 c
+inicio
+   repita
+      escreval("|---------------------------------- |")
+      escreval("|             OMS                   |")
+      escreval("|TESTE PARA PERDA DE TEMPO DE VIDA  |")
+      escreval("|POR USO DO CIGARRO                 |")
+      escreval("|-----------------------------------|")
+      escreval("|VOCE FUMA QUANTOS CIGARROS POR DIA?|")
+      leia(c)
+      escreval("|A QUANTOS ANOS VOCE FUMA?          |")
+      leia(a)
+      min <- c * 10
+      a <- min * 365
+      d <- a / 1440
+      escreval("|VOCE PERDEU ", d:5, " DIAS DE VIDA     |")
+      escreval("|---------------------------------- |")
+      escreval("|---------------------------------- |")
+      escreval("|VOCE QUER REFAZER O TESTE?  [S]/[N}|")
+      leia(resp)
+   ate(resp = "N")
+fimalgoritmo

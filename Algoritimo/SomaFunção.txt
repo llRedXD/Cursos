@@ -1,0 +1,15 @@
+algoritmo "somafuncao"
+var
+res,N1,N2: inteiro
+
+funcao soma(x,y: inteiro) :inteiro
+retorne x + y
+fimfuncao
+inicio
+escreva("Digite um valor:")
+leia(N1)
+escreva("Digite um valor:")
+leia(N2)
+res <- soma(N1,N2)
+escreva("A soma dos valores é:", res)
+fimalgoritmo

@@ -1,0 +1,24 @@
+algoritmo "somador"
+var
+   cont, soma, n, M, Me: inteiro
+inicio
+      escreval("digite os valores desejaveis")
+      cont <- 1
+      soma <- 0
+      Me <-  2
+      Enquanto (cont <= 5) faca
+      Escreva("Digite o", cont,"º valor: ")
+      leia(n)
+             se(n > M)entao
+             M <- n
+             fimse
+             se(n <= Me)entao
+             Me <- n
+             fimse
+      soma <- n + soma
+      cont <- cont + 1
+      fimenquanto
+      escreval("O resultado de sua soma é ", soma)
+      escreval("O maior valor digitado foi ", M)
+      escreval("O menor valor digitado foi ", Me)
+fimalgoritmo

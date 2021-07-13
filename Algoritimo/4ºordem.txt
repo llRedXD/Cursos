@@ -1,0 +1,35 @@
+algoritmo "4ºOrdem"
+var
+Mat: vetor[1..4,1..4] de inteiro
+l,c,soma,mult,maior3: inteiro
+inicio
+mult <- 1
+para l <- 1 ate 4 faca
+     para c <- 1 ate 4 faca
+      escreva("DIGITE O VALOR:")
+      leia(Mat[l,c])
+      se(l = 2)entao
+       mult <- mult * Mat[l,c]
+      fimse
+      se(l = c)entao
+       soma <- soma + Mat[l,c]
+      fimse
+      se(Mat[l,3] > maior3)entao
+        maior3 <- Mat[l,3]
+      fimse
+     fimpara
+fimpara
+escreval("===================")
+escreval("MATRIZ")
+para l <- 1 ate 4 faca
+     para c <- 1 ate 4 faca
+      escreva(Mat[l,c]:4)
+     fimpara
+     escreval()
+fimpara
+escreval("-------------")
+escreval("RESULTADOS")
+escreval("SOMA:",soma)
+escreval("MULTIPLICAÇÃO:",mult)
+escreval("MAIOR VALOR 3º COLUNA:", maior3)
+fimalgoritmo

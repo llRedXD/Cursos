@@ -1,0 +1,17 @@
+algoritmo "semnome"
+var
+   c, f1, f2, f3: inteiro
+   F: real
+inicio
+      f1 <- 0
+      escreva(f1)
+      f2 <- 1
+      escreva(f2)
+         para  c := 3 ate 15 faca
+         f3 <- f2 + f1
+         escreva(f3)
+         f1 <- f2
+         f2 <- f3
+         fimpara
+
+fimalgoritmo

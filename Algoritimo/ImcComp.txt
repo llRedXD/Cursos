@@ -1,0 +1,39 @@
+algoritmo "semnome"
+var
+ Kg, A, IMC: real
+ nome: Caracter
+inicio
+      escreva("Qual seu nome? ")
+      leia(nome)
+      escreva("Qual sua massa(Kg): ")
+      leia(Kg)
+      escreva("Qual a sua altura: ")
+      leia(A)
+      IMC <- Kg / (A ^ 2)
+      escreval("Seu IMC é de ", IMC:4:1, " ")
+      se(IMC <= 18.4)entao
+             escreval(nome, " esta abaixo do seu peso ideal!")
+             senao
+                  se(IMC >=18.5) e (IMC <= 24.9)entao
+                         escreval(nome, " esta no seu peso ideal")
+                         senao
+                              se(IMC >= 25) e (IMC <= 29.9)entao
+                              escreval(nome, " esta com sobrepeso!")
+                              senao
+                                   se(IMC >= 30) e (IMC <= 34.9)entao
+                                          escreval(nome," esta no estagio I de obesidade!")
+                                          senao
+                                               se(IMC >= 35) e (IMC <= 39.9)entao
+                                                      escreval(nome, " esta no estagio II de obesidade!")
+                                                      senao
+                                                           se(IMC >= 40)entao
+                                                                  escreval(nome, " esta no estagio III de obesidade!")
+                                fimse
+                           fimse
+                     fimse
+                fimse
+           fimse
+      fimse
+
+fimalgoritmo
+

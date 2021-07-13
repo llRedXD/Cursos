@@ -1,0 +1,20 @@
+algoritmo "Primos"
+var
+   c, n, r: inteiro
+inicio
+      Escreva("Digite um valor:")
+      leia(n)
+      c <- 1
+      r <- 0
+        repita
+              se(n % c = 0)entao
+              r <- r + 1
+              fimse
+        c <- c + 1
+        ate(c > n)
+        se(r > 2)entao
+        escreva("O valor ", n, " nao é um numero primo.")
+        senao
+        escreva("O valor ", n, " é um numero primo.")
+        fimse
+fimalgoritmo

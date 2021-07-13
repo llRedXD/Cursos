@@ -1,0 +1,15 @@
+algoritmo "semnome"
+var
+   n, s: inteiro
+   resp: caracter
+inicio
+      s <- 0
+        repita
+            escreva("Digite um valor:")
+            leia(n)
+            s <- s + n
+            escreva("Quer continuar [S]/[N] :")
+            leia(resp)
+        ate(resp = "N") repita
+      escreva("O resultado da soma é ", s)
+fimalgoritmo

@@ -1,0 +1,29 @@
+algoritmo "MedidorPeso"
+var
+   cont: inteiro
+   N, NomeM: caracter
+   P, Pesado: real
+   Procedimento Topo()
+   inicio
+      limpatela
+      escreval("=========================")
+      escreval("MEDIDOR DE PESADADO")
+      escreval("MAIOR PESO ATE AGR: ", Pesado, "KG")
+      escreval("=========================")
+   fimprocedimento
+inicio
+      Topo
+      para cont := 1 ate 5 faca
+          escreva("DIGITE UM NOME:")
+          leia(N)
+          escreva("DIGITE O VALOR:")
+          leia(P)
+            se(P > Pesado)entao
+              Pesado <- P
+              NomeM <- N
+            fimse
+      Topo
+      fimpara
+      Topo
+      escreval("O MAIS PESADO FOI ", NomeM, " PESANDO ", Pesado)
+fimalgoritmo

@@ -1,0 +1,44 @@
+algoritmo "Provas"
+var
+quest: vetor[1..5] de caracter
+questC: vetor[1..5] de caracter
+a: vetor[1..3] de caracter
+nota : vetor[1..3] de real
+med: real
+c2, c,totmed: inteiro
+inicio
+escreval("-------------------")
+escreval("Corretor de provas")
+escreval("-------------------")
+escreval("Respostas corretas")
+para c <- 1 ate 5 faca
+escreva(c, "° questao:")
+leia(questC[c])
+fimpara
+limpatela
+
+para c <- 1 ate 3 faca
+     escreva("NOME ALUNO:")
+     leia(a[c])
+     para c2 <- 1 ate 5 faca
+     escreva(c2, "° questao:")
+     leia(quest[c2])
+     se(quest[c2] = questC[c2]) entao
+     nota[c] <- nota[c] + 2
+     fimse
+     fimpara
+     escreval("NOTA:",nota[c]:2:2)
+     med <- med + nota[c])
+     limpatela
+fimpara
+
+limpatela
+
+escreval("==================")
+escreval("NOTAS FINAIS")
+escreval("==================")
+para c <- 1 ate 3 faca
+escreval(a[c]:10,nota[c]:4)
+fimpara
+escreval("MEDIA DA SALA:", med / 3)
+fimalgoritmo

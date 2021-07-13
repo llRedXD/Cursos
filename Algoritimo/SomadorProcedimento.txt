@@ -1,0 +1,17 @@
+algoritmo "semnome"
+
+var
+ A, B: inteiro
+procedimento SOMA(A, B: inteiro)
+inicio
+      escreval("Recibi valor ", A)
+      escreval("Recibi valor ", B)
+      Escreval("A soma dos valores é ", A + B)
+      fimprocedimento
+inicio
+   Escreva("Escreva um valor:")
+   leia(A)
+   escreva("Escreva outro valor:")
+   leia(B)
+   SOMA(A,B)
+fimalgoritmo

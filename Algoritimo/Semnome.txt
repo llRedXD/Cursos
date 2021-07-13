@@ -1,0 +1,70 @@
+algoritmo "semnome"
+var
+   N1,N2, Media: real
+   //A = 1000 - 900
+   //B = 890 - 800
+   //C = 790 - 700
+   //D = 690 - 600
+   //E = 590 - 500
+   //F = 500 para baixo
+inicio
+      escreval("--------------------------")
+      escreval("E.E.Irende de Lima Paiva  ")
+      escreval("--------------------------")
+      escreva("Escreva a primeita nota: " )
+      Leia(N1)
+      Escreva("Escreva a segunda nota: " )
+      Leia(N2)
+      Media <- (N1+N2) / 2
+            se(Media <= 5)entao
+            escreval("--------------------")
+            escreval("MEDIA : ", Media)
+            escreval("APROVEITAMENTO : F ")
+            escreval("-------------------")
+                    senao
+                         se(Media >=5.1)e (Media <= 5.9)entao
+                         escreval("--------------------")
+                         escreval("MEDIA : ", Media)
+                         escreval("APROVEITAMENTO : E ")
+                         escreval("-------------------")
+                         senao
+                              se(Media >= 6)e (Media <= 6.9)entao
+                              escreval("--------------------")
+                              escreval("MEDIA : ", Media)
+                              escreval("APROVEITAMENTO : D ")
+                              escreval("-------------------")
+                              senao
+                                   se(Media >= 7) e (Media <= 7.9)entao
+                                   escreval("--------------------")
+                                   escreval("MEDIA : ", Media)
+                                   escreval("APROVEITAMENTO : C ")
+                                   escreval("-------------------")
+                                   senao
+                                        se(Media >= 8) e (Media <= 8.9)entao
+                                        escreval("--------------------")
+                                        escreval("MEDIA : ", Media)
+                                        escreval("APROVEITAMENTO : B ")
+                                        escreval("-------------------")
+                                        senao
+                                             se(Media >= 9) e (Media <= 10)entao
+                                             escreval("--------------------")
+                                             escreval("MEDIA : ", Media)
+                                             escreval("APROVEITAMENTO : A ")
+                                             escreval("-------------------")
+                                             fimse
+                                        fimse
+                                   fimse
+                              fimse
+                         fimse
+            fimse
+            FimAlgoritmo
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            

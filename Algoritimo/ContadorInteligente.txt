@@ -1,0 +1,30 @@
+algoritmo "ContadorInteligente"
+var
+   i, f: inteiro
+inicio
+      escreval("---------------------")
+      escreval("CONTADOR INTELIGENTE")
+      escreval("---------------------")
+      Escreva("INICIO:")
+      Leia(i)
+      Escreva("FIM:")
+      Leia(f)
+             se(i > f)entao
+             escreval("---------------")
+             escreval("   CONTANDO    ")
+             escreval("---------------")
+                  enquanto (i >= f) faca
+                  escreval(i,"..")
+                  i <- i - 1
+                  fimenquanto
+             senao
+             escreval("---------------")
+             escreval("   CONTANDO    ")
+             escreval("---------------")
+                  enquanto (f <= i) faca
+                  escreval(f,"..")
+                 f <- f + 1
+                 fimenquanto
+             fimse
+fimalgoritmo
+

@@ -1,0 +1,16 @@
+algoritmo "ParOuImparFuncao"
+var
+N, Res: inteiro
+funcao PoI(X: inteiro) :inteiro
+retorne x % 2
+fimfuncao
+inicio
+Escreva("Digite um numero:")
+leia(N)
+Res <- PoI(N)
+    se(Res = 0)entao
+    escreval("O numero ", N, " é  Par")
+    senao
+    escreval("O numero ", N, " é  Impar")
+    fimse
+fimalgoritmo

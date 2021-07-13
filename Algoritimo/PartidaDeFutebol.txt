@@ -1,0 +1,43 @@
+algoritmo "PartidaDeFutebol"
+var
+   SP, CR, Dif: inteiro
+inicio
+      Escreval("   SÃO PAULO X CORINTHIANS")
+      Escreval("-------------------------------")
+      Escreva("Quantos golss do SÂO PAULO:")
+      Leia(SP)
+      Escreva("Quantos gols do CORINTHIANS:")
+      Leia(CR)
+      se(SP > CR)entao
+      Dif <- SP - CR
+      senao(SP < CR)
+      Dif <- CR - SP
+      fimse
+      Escolha Dif
+              caso 0
+                   Escreval("-------------------------------")
+                   escreval("           RESULTADO           ")
+                   Escreval("SAO PAULO",SP, " X",CR," CORINTHIANS")
+                   escreval("DIFERENÇA:", DIF," STATUS: EMPATE")
+                   Escreval("-------------------------------")
+              caso 1,2,3
+                   Escreval("-------------------------------")
+                   escreval("           RESULTADO           ")
+                   Escreval("SAO PAULO",SP, " X",CR," CORINTHIANS")
+                   escreval("DIFERENÇA:", DIF," STATUS: NORMAL")
+                   Escreval("-------------------------------")
+              caso 4,5
+                   Escreval("-------------------------------")
+                   escreval("           RESULTADO           ")
+                   Escreval("SAO PAULO",SP, " X",CR," CORINTHIANS")
+                   escreval("DIFERENÇA:", DIF," STATUS: SHOW")
+                   Escreval("-------------------------------")
+              caso 6,7,8,9,10
+                   Escreval("-------------------------------")
+                   escreval("           RESULTADO           ")
+                   Escreval("SAO PAULO",SP, " X",CR," CORINTHIANS")
+                   escreval("DIFERENÇA:", DIF," STATUS: SURRA")
+                   Escreval("-------------------------------")
+      FimEscolha
+
+fimalgoritmo

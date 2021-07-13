@@ -1,0 +1,31 @@
+algoritmo "AnaliseDeNumeros"
+var
+   C, V, S, N, P, I, Divi5: inteiro
+   M: real
+inicio
+      Divi5 <- 0
+      para C := 1 ate 5 faca
+           escreva("Digite o ",C ,"º valor:")
+           leia(V)
+           Se(V % 2 = 0) entao
+            P <- P + V
+            fimse
+              se(V % 2 = 1)entao
+               I <- I + V
+                fimse
+                   se(V%5 = 0)entao
+                    Divi5 <- Divi5 + 1
+                     fimse
+                       se(V = 0)entao
+                         N <- N + 1
+                         fimse
+           S <- V + S
+      fimpara
+           Escreval("A SOMA DOS NUMEROS É ", S)
+           M <- S / C
+           escreval("A MEDIA DOS NUMEROS É ", M:3:1)
+           escreval("OS NUMEROS DIVISIVEIS POR 5 É ", Divi5)
+           escreval("O TOTAL DE NUMEROS NULOS É ", N)
+           escreval("A SOMO DOS NUMEROS PARES É ", P)
+           escreval("A SOMA DOS NUMEROS IMPARES ", I)
+fimalgoritmo

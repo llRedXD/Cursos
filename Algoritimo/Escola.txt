@@ -1,0 +1,28 @@
+algoritmo "semnome"
+var
+N1, N2, Media: real
+Aluno: Caracter
+inicio
+      escreval("-----------------------")
+      escreval("E.E.Irene de Lima Paiva")
+      escreval("-----------------------")
+      escreva("Qual seu nome? ")
+      Leia(Aluno)
+      escreva("Digite a primeira nota: ")
+      leia(N1)
+      escreva("Digite a segunda nota: ")
+      leia(N2)
+      Media <- (N1 + N2) / 2
+      se(Media >= 5)entao
+      escreval("------------------------")
+      escreval("      ",Aluno,"         ")
+      escreval("       Aprovado         ")
+      escreval("------------------------")
+      senao
+      escreval("------------------------")
+      escreval("      ",Aluno,"         ")
+      escreval("       Reprovado        ")
+      escreval("------------------------")
+      fimse
+      escreval("     A nota é ", Media)
+fimalgoritmo

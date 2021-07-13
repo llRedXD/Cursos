@@ -1,0 +1,20 @@
+algoritmo "semnome"
+var
+  N: inteiro
+   procedimento ParOuImpar(V: inteiro)
+inicio
+      se(V % 2 = 0)entao
+      escreva("O numero ", V, " é par")
+      fimse
+      se(V % 2 = 1)entao
+      escreva("O numeto ", V," é impar")
+      fimse
+fimprocedimento
+inicio
+      Escreval("---------------------")
+      escreval("    PAR OU IMPAR     ")
+      escreval("---------------------")
+      escreval("Escreva o numero:")
+      Leia(N)
+      ParOuImpar(N)
+fimalgoritmo

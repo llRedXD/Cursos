@@ -1,0 +1,14 @@
+algoritmo "ParOuImpar"
+var
+   N1,Res:inteiro
+   //Usar o comando Modulo(%) se o resultado for 1 é impar se for 0 então é par
+inicio
+      escreva("Digite o numero: ")
+      leia(N1)
+      Res <- N1%2
+      se(Res = 1)entao
+      escreval("O Numero ", N1," é impar")
+      senao(Res = 0)entao
+      escreval("O Numero " N1," é par")
+      fimse
+fimalgoritmo

@@ -1,0 +1,19 @@
+algoritmo "Fatorial"
+var
+V, F: inteiro
+funcao Fator(N :inteiro) :inteiro
+var
+C, R: inteiro
+inicio
+   R <- 1
+   para C <- 1 ate V faca
+   R <- R * C
+   fimpara
+   retorne R
+fimfuncao
+inicio
+      escreva("Digite um valor:")
+      leia(V)
+      F <- Fator(V)
+      escreval("O valor de ", V,"! é igual a ",F)
+fimalgoritmo

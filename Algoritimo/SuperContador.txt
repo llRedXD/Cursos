@@ -1,0 +1,39 @@
+algoritmo "superContador"
+var
+   i, f, r: inteiro
+inicio
+   repita
+      escreval("|---------------------|")
+      escreval("|    Super Contador   |")
+      escreval("|---------------------|")
+      escreval("|        Menu         |")
+      escreval("|[1}De 0 a 10")
+      escreval("|[2]De 10 a 0")
+      escreval("|[3}Sair ")
+      leia(r)
+      i <- 10
+      f <- 0
+             escolha r
+             caso 1
+             escreval("---------------")
+             escreval("   CONTANDO    ")
+             escreval("   ESCOLHA: 1  ")
+             escreval("---------------")
+                  enquanto (i >= f) faca
+                  escreval(i,"..")
+                  i <- i - 1
+                  fimenquanto
+            caso 2
+             escreval("---------------")
+             escreval("   CONTANDO    ")
+             escreval("   ESCOLHA: 2  ")
+             escreval("---------------")
+                  enquanto (f <= i) faca
+                  escreval(f,"..")
+                 f <- f + 1
+                 fimenquanto
+            outrocaso
+                     escreva("SAINDO....")
+             fimescolha
+          ate(r = 3)
+fimalgoritmo

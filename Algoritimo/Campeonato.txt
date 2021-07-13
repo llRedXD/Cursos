@@ -1,0 +1,23 @@
+algoritmo "Campeonato"
+var
+time: vetor[1..4] de caracter]
+c, aux: inteiro
+inicio
+Escreval("====================")
+escreval("    CAMPEONATO      ")
+Escreval("====================")
+para c <- 1 ate 4 faca
+escreva(c,"°Classificado:")
+leia(time[c])
+fimpara
+Escreval("====================")
+escreval("Tabela de jogos     ")
+escreval("====================")
+ para c <- 1 ate 4 faca
+      para aux <- 1 ate 4 faca
+      se(c <> aux)entao
+      escreval(time[c], " [ ] X [ ] ", time[aux])
+      fimse
+      fimpara
+ fimpara
+fimalgoritmo

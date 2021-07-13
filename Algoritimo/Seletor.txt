@@ -1,0 +1,37 @@
+algoritmo "Escolha"
+var
+   cabelo, idade: inteiro
+   sexo, Ef, Em, resp: caractere
+inicio
+      escreval("========================")
+      escreval("  SELETOR DE PESSOAS    ")
+      escreval("========================")
+      repita
+      escreval("QUAL O SEXO? [M]/[F]")
+      leia(sexo)
+      escreva("QUAL A IDADE? ")
+      leia(idade)
+      Escreval("QUAL A COR DO CABELO")
+      escreval("------------------------")
+      escreval("[1] PRETO")
+      escreval("[2] CASTANHO")
+      escreval("[3] LOIRO")
+      escreval("[4] RUIVO")
+      leia(cabelo)
+          se(sexo = "M") e (idade > 18 ) e (cabelo = 2)entao
+          Em <-  Em + 1
+                se(sexo = "F") e (idade <= 30) e (idade >= 25) e (cabelo = 3)entao
+                 Ef <- Ef + 1
+                 senao
+                fimse
+          fimse
+          Escreva("Quer continuar [S]/[N]")
+          leia(resp)
+      ate(resp = "N")
+      escreval("-------------------")
+      escreval("RESULTADO FINAL")
+      escreval("-------------------")
+      escreval("Total de homens que podem ser selecionados:", Em)
+      escreval("Total de mulheres que podem ser selecionadas:", Ef)
+
+fimalgoritmo

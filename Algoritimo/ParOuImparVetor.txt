@@ -1,0 +1,18 @@
+algoritmo "ParOuImparVetor"
+var
+Val : vetor[1..8] de inteiro
+c,P,I: inteiro
+inicio
+para c <- 1 ate 8 faca
+ escreva("Digite o valor:")
+ leia(val[c])
+     se(Val[c] % 2 = 0) entao
+      P <- P + 1
+     senao
+      I <- I + 1
+     fimse
+fimpara
+escreval("A ",P," numeros pares")
+escreval("A ",I," numeros impares")
+fimalgoritmo
+fimse

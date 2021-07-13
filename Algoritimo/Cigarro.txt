@@ -1,0 +1,13 @@
+algoritmo "semnome"
+var
+   c, min, a, d: inteiro
+   //maço 20 c
+inicio
+      escreva("quantos cigarros voce fuma por dia? ")
+      leia(c)
+      escreva("quantos voce fuma? ")
+      leia(a)
+      min <- c * 10
+      a <- min * 365
+      escreva("voce perdeu ", a
+fimalgoritmo

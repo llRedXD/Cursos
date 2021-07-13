@@ -1,0 +1,18 @@
+algoritmo "semnome"
+var
+   R, C, D, Rep: real
+   //R = Real
+   //D = Dolar
+   //C = Contador
+inicio
+      Escreva("Quantas operações serão realizadas:")
+      Leia(Rep)
+      C <- 1
+      enquanto (C <= Rep) faca
+      escreva("Quantos Reais deseja trocar:R$")
+      leia(R)
+      D <- R / 5.55
+      escreval("Voce pode retirar US$", D:5:2)
+      C <- C + 1
+      fimenquanto
+fimalgoritmo
