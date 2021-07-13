@@ -13,7 +13,7 @@ while escolha != "N":
             maiornum = number
         elif number < menornum:
             menornum = number
-    escolha = str(input("Quer digitar mais valores? [S]/[N]\n :")).upper()
+    escolha = str(input("Quer digitar mais valores? [S]/[N]:")).upper()
     soma = soma + number
     if "S" and "N":
         vezes += 1
