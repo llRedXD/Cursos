@@ -1,5 +1,6 @@
 import random
 
+
 lista = []
 
 resp = ""
