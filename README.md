@@ -4,6 +4,8 @@ Exercícios dos meus cursos separados por materias assim me permitindo fazer um 
 
 ## Cursos presentes ate o momento:
 
-Algoritimo(CursoEmVideo)
+1.Algoritimo(CursoEmVideo)
 
-Python(CursoEmVideo)
+2.Python(CursoEmVideo)
+    1.Mundo1
+    2.Mundo2
