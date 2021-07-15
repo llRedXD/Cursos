@@ -1,4 +1,4 @@
 const lugar = "Mundo";
-const saudacao = "Olá"
+const saudacao = "Olá";
 
 console.log(`${saudacao}, ${lugar}`);

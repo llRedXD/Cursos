@@ -8,4 +8,3 @@ if parcela <= (salario * 0.3):
     print(f'O valor de R${parcela:.2f}')
 else:
     print("Você nao pode pegar o emprestimo")
-
