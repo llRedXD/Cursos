@@ -10,9 +10,11 @@ valor = int(input("Qual a sacar: R$"))
 if valor >= 50:
     cinquenta = valor//50
     valor = valor % 50
+    pass
     if valor >= 20:
         vinte = valor//20
         valor = valor%20
+        pass
         if valor >= 10:
             dez = valor//10
             valor = valor%10
