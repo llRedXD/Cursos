@@ -125,7 +125,7 @@
 
 <div align="center">
    <a href="https://github.com/llRedXD/Cursos/tree/main/pythonando">
-   <img height="450" width="450" src="https://user-images.githubusercontent.com/59977779/176500913-1147bf94-43c9-49cd-8313-b8c68e96523e.png" />
+   <img height="300" width="300" src="https://user-images.githubusercontent.com/59977779/176500913-1147bf94-43c9-49cd-8313-b8c68e96523e.png" />
 </div>
 
 
