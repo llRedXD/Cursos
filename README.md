@@ -95,7 +95,7 @@
 
 
 <h1 alt="WTTD"> 
-   <a href="https://github.com/llRedXD/Cursos/tree/main/HB/WelcomeToTheDjango"> 
+   <a href="https://github.com/llRedXD/WelcomeToTheDjango"> 
    <img  align="center" height="100" width="100" src="https://user-images.githubusercontent.com/59977779/176488186-bec3dd85-7686-4d0f-be2e-3154b6c94b0e.png"/>
    Welcome To The Django
 </h1>
