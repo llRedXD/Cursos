@@ -6,32 +6,31 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def cadastro(request):
     """ Cadastra uma nova pessoa no sistema """
-    if request.method == 'POST':
-        nome = request.POST['nome']
-        email = request.POST['email']
-        senha = request.POST['password']
-        senha2 = request.POST['password2']
-        if campo_vazio(nome):
-            messages.error(request,'O campo nome não pode ficar em branco')
-            return redirect('cadastro')
-        if campo_vazio(email):
-            messages.error(request,'O campo email não pode ficar em branco')
-            return redirect('cadastro')
-        if senhas_nao_sao_iguais(senha, senha2):
-            messages.error(request, 'As senhas não são iguais')
-            return redirect('cadastro')
-        if User.objects.filter(email=email).exists():
-            messages.error(request,'Usuário já cadastrado')
-            return redirect('cadastro')
-        if User.objects.filter(username=nome).exists():
-            messages.error(request,'Usuário já cadastrado')
-            return redirect('cadastro')
-        user = User.objects.create_user(username=nome, email=email, password=senha)
-        user.save()
-        messages.success(request, 'Cadastro realizado com sucesso')
-        return redirect('login')
-    else:
+    if request.method != 'POST':
         return render(request,'usuarios/cadastro.html')
+    nome = request.POST['nome']
+    email = request.POST['email']
+    senha = request.POST['password']
+    senha2 = request.POST['password2']
+    if campo_vazio(nome):
+        messages.error(request,'O campo nome não pode ficar em branco')
+        return redirect('cadastro')
+    if campo_vazio(email):
+        messages.error(request,'O campo email não pode ficar em branco')
+        return redirect('cadastro')
+    if senhas_nao_sao_iguais(senha, senha2):
+        messages.error(request, 'As senhas não são iguais')
+        return redirect('cadastro')
+    if User.objects.filter(email=email).exists():
+        messages.error(request,'Usuário já cadastrado')
+        return redirect('cadastro')
+    if User.objects.filter(username=nome).exists():
+        messages.error(request,'Usuário já cadastrado')
+        return redirect('cadastro')
+    user = User.objects.create_user(username=nome, email=email, password=senha)
+    user.save()
+    messages.success(request, 'Cadastro realizado com sucesso')
+    return redirect('login')
 
 def login(request):
     """ Realiza o login de uma pessoa no login """
@@ -61,12 +60,12 @@ def dashboard(request):
     if request.user.is_authenticated:
         id = request.user.id
         receitas = Receita.objects.order_by('-date_receita').filter(pessoa=id)
-        
+
         paginator = Paginator(receitas, 3)
         page = request.GET.get('page')
         receitas_pagina = paginator.get_page(page)
 
-        
+
         dados = { 
             'receitas' : receitas_pagina
         }
