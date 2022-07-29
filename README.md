@@ -101,7 +101,7 @@
 </h1>
 
 
-* [ ] __*25%*__
+* [ ] __*38%*__
 
 <h1 alt="DP"> 
    <a href="https://github.com/llRedXD/Cursos/tree/main/HB/pacote-desafios-pythonicos"> 
