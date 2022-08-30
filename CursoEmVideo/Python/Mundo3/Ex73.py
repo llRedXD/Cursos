@@ -17,7 +17,7 @@ Times = ("Atlético - MG",
          "Grêmio",
          "Sport",
          "América - MG",
-         "Chapecoense")
+         "Atletico Paranaense")
 
 c = 0
 
