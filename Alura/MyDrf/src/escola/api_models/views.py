@@ -1,7 +1,6 @@
 # Rest imports
 from rest_framework import viewsets, generics
-from rest_framework.authentication import BasicAuthentication
-from rest_framework.permissions import IsAuthenticated
+
 
 # Local imports
 from src.escola.models import Aluno, Curso, Matricula
@@ -13,24 +12,18 @@ class AlunosViewSet(viewsets.ModelViewSet):
     def get_serializer_class(self):
         return AlunoSerializerV2 if self.request.version == 'v2' else AlunoSerializerV1
     queryset = Aluno.objects.all()
-    authentication_classes = [BasicAuthentication]
-    permission_classes = [IsAuthenticated]
 
 
 class CursosViewSet(viewsets.ModelViewSet):
     """Exibindo todos os cursos"""
     queryset = Curso.objects.all()
     serializer_class = CursoSerializer
-    authentication_classes = [BasicAuthentication]
-    permission_classes = [IsAuthenticated]
 
 
 class MatriculaViewSet(viewsets.ModelViewSet):
     """Listando todas as matrículas"""
     queryset = Matricula.objects.all()
     serializer_class = MatriculaSerializer
-    authentication_classes = [BasicAuthentication]
-    permission_classes = [IsAuthenticated]
 
 
 class ListaMatriculasAluno(generics.ListAPIView):
@@ -39,8 +32,6 @@ class ListaMatriculasAluno(generics.ListAPIView):
     def get_queryset(self):
         return Matricula.objects.filter(aluno_id=self.kwargs['pk'])
     serializer_class = ListaMatriculasAlunoSerializer
-    authentication_classes = [BasicAuthentication]
-    permission_classes = [IsAuthenticated]
 
 
 class ListaAlunosMatriculados(generics.ListAPIView):
@@ -49,5 +40,3 @@ class ListaAlunosMatriculados(generics.ListAPIView):
     def get_queryset(self):
         return Matricula.objects.filter(curso_id=self.kwargs['pk'])
     serializer_class = ListaAlunosMatriculadosSerializer
-    authentication_classes = [BasicAuthentication]
-    permission_classes = [IsAuthenticated]

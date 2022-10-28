@@ -51,8 +51,17 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+# Django REST Framework settings
 REST_FRAMEWORK = {
-    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning'
+    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissions',
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+    ]
 }
 
 ROOT_URLCONF = 'src.urls'
