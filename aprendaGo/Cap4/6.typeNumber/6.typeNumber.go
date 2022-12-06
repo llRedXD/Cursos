@@ -7,5 +7,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Decimal: 42")
+	a := 100
+	fmt.Printf("%d - %b - %#x\n", a, a, a)
 }
