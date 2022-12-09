@@ -7,3 +7,5 @@ node_modules
 package*
 .husky
 aprendaGo/criaCaps.py
+go.*
+
