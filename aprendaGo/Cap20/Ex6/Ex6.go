@@ -1,9 +1,17 @@
+// - Crie um programa que demonstra seu OS e ARCH.
+// - Rode-o com os seguintes comandos:
+//   - go run X
+//   - go build
+//   - go install
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
 func main() {
 
-    fmt.Println("Hello World")
-
+    fmt.Println("OS:",runtime.GOOS)
+    fmt.Println("ARCH:",runtime.GOARCH)
 }

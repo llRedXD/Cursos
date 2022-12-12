@@ -1,6 +1,3 @@
-// - Agora vamos fazer a mesma coisa, mas com atomic ao invés de mutex.
-//     - atomic.AddInt64
-//     - atomic.LoadInt64
 package main
 
 import (
@@ -10,30 +7,30 @@ import (
 	"sync/atomic"
 )
 
+var wg sync.WaitGroup
+var contador int32
+
+const quantidadeDeGoroutines = 50000
+
 func main() {
 
-	fmt.Println("CPUs:", runtime.NumCPU())
+	criarGoroutines(quantidadeDeGoroutines)
+	wg.Wait()
+	fmt.Println("Total de goroutines:\t", quantidadeDeGoroutines, "\nTotal do contador:\t", contador)
 
-	var contador int64
-	contador = 0
-	totaldegoroutines := 15
+}
 
-	var wg sync.WaitGroup
-	wg.Add(totaldegoroutines)
-
-	for i := 0; i < totaldegoroutines; i++ {
+func criarGoroutines(i int) {
+	wg.Add(i)
+	for j := 0; j < i; j++ {
 		go func() {
-			atomic.AddInt64(&contador, 1)
-            v := contador
-            v++
+			// func AddInt32(addr *int32, delta int32) (new int32)
+			// func LoadInt32(addr *int32) (val int32)
+			atomic.AddInt32(&contador, 1)
+			v := atomic.LoadInt32(&contador)
 			runtime.Gosched()
-            contador := v
-			fmt.Println("Contador:\t", atomic.LoadInt64(&contador))
+			fmt.Println(v)
 			wg.Done()
 		}()
 	}
-
-	wg.Wait()
-	fmt.Println("Valor final:", contador)
-
 }
