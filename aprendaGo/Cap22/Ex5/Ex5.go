@@ -1,9 +1,22 @@
+// - Utilizando este código: https://play.golang.org/p/YHOMV9NYKK
+// - ...demonstre o comma ok idiom.
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+	c := make(chan int)
 
-    fmt.Println("Hello World")
+	go func() {
+		c <- 42
+		close(c)
+	}()
 
+	v, ok := <-c
+	fmt.Println(v, ok)
+
+	v, ok = <-c
+	fmt.Println(v, ok)
 }
