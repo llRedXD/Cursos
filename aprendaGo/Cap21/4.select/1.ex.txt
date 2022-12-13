@@ -1,0 +1,21 @@
+          a := make(chan int)
+              b := make(chan int)
+              c := 50
+              go func(c int) {
+                  for i := 0; i < c; i++ {
+                      a <- i
+                  }
+              }(c/2)
+              go func(c int) {
+                  for i := 0; i < c; i++ {
+                      b <- i
+                  }
+              }(c/2)
+	for i:=0; i < c;i++{
+	    select {
+	    case v := <- a:
+	        fmt.Println("Canal A:",v)
+	    case v := <- b:
+	        fmt.Println("Canal B:",v)
+	    }
+	}

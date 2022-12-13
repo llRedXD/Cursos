@@ -1,0 +1,30 @@
+package main
+
+import "fmt"
+
+func recebeValor(x chan int,quit chan int)  {
+    for i := 0; i < 50; i++{
+        fmt.Println("Canal recebeu:", <- x)
+    }    
+    quit <- 0
+}
+
+func selectQuit(x chan int,quit chan int)  {
+    q := 1
+    for {
+        select {
+        case x <- q:
+            q++
+        case <- quit:
+            return
+        }   
+    }
+}
+
+func main() {
+    x := make(chan int)
+    quit := make(chan int)
+    go recebeValor(x, quit)
+    selectQuit(x, quit)
+    
+}
