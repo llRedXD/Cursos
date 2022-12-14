@@ -1,0 +1,6 @@
+14/12/2022 10:01:57 Site: https://www.alura.com.br Code: 200 Conexão: true
+14/12/2022 10:01:58 Site: https://www.caelum.com.br Code: 200 Conexão: true
+14/12/2022 10:01:58 Site: https://www.casadocodigo.com.br Code: 200 Conexão: true
+14/12/2022 10:02:01 Site: https://www.alura.com.br Code: 200 Conexão: true
+14/12/2022 10:02:02 Site: https://www.caelum.com.br Code: 200 Conexão: true
+14/12/2022 10:02:02 Site: https://www.casadocodigo.com.br Code: 200 Conexão: true
