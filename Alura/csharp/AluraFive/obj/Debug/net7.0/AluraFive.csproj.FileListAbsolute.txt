@@ -1,0 +1,15 @@
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/bin/Debug/net7.0/AluraFive
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/bin/Debug/net7.0/AluraFive.deps.json
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/bin/Debug/net7.0/AluraFive.runtimeconfig.json
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/bin/Debug/net7.0/AluraFive.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/bin/Debug/net7.0/AluraFive.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.csproj.AssemblyReference.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.AssemblyInfoInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.AssemblyInfo.cs
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.csproj.CoreCompileInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/refint/AluraFive.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/AluraFive.genruntimeconfig.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraFive/obj/Debug/net7.0/ref/AluraFive.dll

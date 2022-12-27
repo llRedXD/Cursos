@@ -1,0 +1,15 @@
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.csproj.AssemblyReference.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.AssemblyInfoInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.AssemblyInfo.cs
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.csproj.CoreCompileInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/bin/Debug/net7.0/AluraOne
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/bin/Debug/net7.0/AluraOne.deps.json
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/bin/Debug/net7.0/AluraOne.runtimeconfig.json
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/bin/Debug/net7.0/AluraOne.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/bin/Debug/net7.0/AluraOne.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/refint/AluraOne.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/AluraOne.genruntimeconfig.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/AluraOne/obj/Debug/net7.0/ref/AluraOne.dll
