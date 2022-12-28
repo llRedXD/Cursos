@@ -1,0 +1,15 @@
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/bin/Debug/net6.0/byteBank
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/bin/Debug/net6.0/byteBank.deps.json
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/bin/Debug/net6.0/byteBank.runtimeconfig.json
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/bin/Debug/net6.0/byteBank.dll
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/bin/Debug/net6.0/ref/byteBank.dll
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/bin/Debug/net6.0/byteBank.pdb
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.csproj.AssemblyReference.cache
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.AssemblyInfoInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.AssemblyInfo.cs
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.csproj.CoreCompileInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.dll
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/ref/byteBank.dll
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.pdb
+/home/gabriel/workspace/Cursos/Alura/csharpOO/byteBank/obj/Debug/net6.0/byteBank.genruntimeconfig.cache
