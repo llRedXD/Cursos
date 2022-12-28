@@ -1,0 +1,15 @@
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.csproj.AssemblyReference.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.AssemblyInfoInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.AssemblyInfo.cs
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.csproj.CoreCompileInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/bin/Debug/net7.0/Fatorial
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/bin/Debug/net7.0/Fatorial.deps.json
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/bin/Debug/net7.0/Fatorial.runtimeconfig.json
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/bin/Debug/net7.0/Fatorial.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/bin/Debug/net7.0/Fatorial.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/refint/Fatorial.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/Fatorial.genruntimeconfig.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Fatorial/obj/Debug/net7.0/ref/Fatorial.dll

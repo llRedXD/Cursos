@@ -1,0 +1,15 @@
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/bin/Debug/net7.0/Switch
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/bin/Debug/net7.0/Switch.deps.json
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/bin/Debug/net7.0/Switch.runtimeconfig.json
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/bin/Debug/net7.0/Switch.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/bin/Debug/net7.0/Switch.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.csproj.AssemblyReference.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.AssemblyInfoInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.AssemblyInfo.cs
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.csproj.CoreCompileInputs.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/refint/Switch.dll
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.pdb
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/Switch.genruntimeconfig.cache
+/home/gabriel/workspace/Cursos/Alura/csharp/Switch/obj/Debug/net7.0/ref/Switch.dll
