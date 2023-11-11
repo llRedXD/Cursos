@@ -1,0 +1,15 @@
+/home/red/workspace/Cursos/Alura/c#/MyApp/bin/Debug/net7.0/MyApp
+/home/red/workspace/Cursos/Alura/c#/MyApp/bin/Debug/net7.0/MyApp.deps.json
+/home/red/workspace/Cursos/Alura/c#/MyApp/bin/Debug/net7.0/MyApp.runtimeconfig.json
+/home/red/workspace/Cursos/Alura/c#/MyApp/bin/Debug/net7.0/MyApp.dll
+/home/red/workspace/Cursos/Alura/c#/MyApp/bin/Debug/net7.0/MyApp.pdb
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.csproj.AssemblyReference.cache
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.AssemblyInfoInputs.cache
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.AssemblyInfo.cs
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.csproj.CoreCompileInputs.cache
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.dll
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/refint/MyApp.dll
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.pdb
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/MyApp.genruntimeconfig.cache
+/home/red/workspace/Cursos/Alura/c#/MyApp/obj/Debug/net7.0/ref/MyApp.dll
